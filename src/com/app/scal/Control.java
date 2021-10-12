@@ -1,4 +1,3 @@
-
 /***************************************************************************	
  * 	Description:			Control to run the Simple 4 Calculator Program
  * 
@@ -10,10 +9,13 @@
 package com.app.scal;
 
 public class Control {
-
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World! I am the Calculator!");
+		// Setup and Run Application
+		Calculator myAppWindow = new Calculator("Simple Calculator");
+		myAppWindow.setVisible(true);
+		
+		System.out.println("Hello World! I am the Simple Calculator");
 
 	}// end main()
 
